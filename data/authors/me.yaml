@@ -60,15 +60,15 @@ links:
 # === 研究兴趣 ===
 # 显示在个人页面的标签列表
 interests:
-  - 机器学习
-  - 计算机视觉
-  - 自然语言处理
+  - 3D Vison Understanding
+  - Point Cloud Understanding and Processing
+  - Multi-modal Urban Foundation Models
   # 根据你的研究方向填写
 
 # === 教育经历 ===
 # 从最新到最旧排列
 education:
-  - degree: 学位名称  # 如 "博士，计算机科学" 或 "PhD in Computer Science"
+  - degree:  # 如 "博士，计算机科学" 或 "PhD in Computer Science"
     institution: 学校名称
     start: 2015-09-01  # 开始日期，格式 YYYY-MM-DD
     end: 2019-06-30    # 结束日期

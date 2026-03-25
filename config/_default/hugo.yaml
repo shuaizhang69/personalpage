@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'The personal website of Shuai Zhang'
 # Website URL
-baseURL: 'https://www.shuaizhang-hkust.cn/'
+baseURL: 'https://shuaizhang69.github.io/personalpage'
 
 ############################
 ## LANGUAGE
