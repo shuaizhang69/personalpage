@@ -68,16 +68,37 @@ interests:
 # === 教育经历 ===
 # 从最新到最旧排列
 education:
-  - degree:  # 如 "博士，计算机科学" 或 "PhD in Computer Science"
-    institution: 学校名称
-    start: 2015-09-01  # 开始日期，格式 YYYY-MM-DD
-    end: 2019-06-30    # 结束日期
-    summary: |
-      可选：简述研究方向、论文主题等
-    button:  # 可选：添加按钮链接到论文/简历
-      text: 按钮文字
-      url: /path/to/document.pdf
-      icon: hero/arrow-down-tray  # 图标
+  - degree:  PhD in UGOD (URBAN GOVERNANCE AND DESIGN) # 如 "博士，计算机科学" 或 "PhD in Computer Science"
+    institution: The Hong Kong University of Science and Technology (Guangzhou).
+    start: 2024-09  # 开始日期，格式 YYYY-MM-DD
+    end: --    # 结束日期
+    # summary: |
+    #   可选：简述研究方向、论文主题等
+    # button:  # 可选：添加按钮链接到论文/简历
+    #   text: 按钮文字
+    #   url: /path/to/document.pdf
+    #   icon: hero/arrow-down-tray  # 图标
+  - degree:  M.S in Remote Sensing and Geoinformation Engineering # 如 "博士，计算机科学" 或 "PhD in Computer Science"
+    institution: SUN YAT-SEN UNIVERSITY 
+    start: 2021-09  # 开始日期，格式 YYYY-MM-DD
+    end: 2024-06    # 结束日期
+    # summary: |
+    #   可选：简述研究方向、论文主题等
+    # button:  # 可选：添加按钮链接到论文/简历
+    #   text: 按钮文字
+    #   url: /path/to/document.pdf
+    #   icon: hero/arrow-down-tray  # 图标
+  - degree:  B.E in Surveying and Mapping Engineering # 如 "博士，计算机科学" 或 "PhD in Computer Science"
+    institution: Shandong University Of Science and Technology
+    start: 2017-09 # 开始日期，格式 YYYY-MM-DD
+    end: 2021-06   # 结束日期
+    # summary: |
+    #   可选：简述研究方向、论文主题等
+    # button:  # 可选：添加按钮链接到论文/简历
+    #   text: 按钮文字
+    #   url: /path/to/document.pdf
+    #   icon: hero/arrow-down-tray  # 图标
+            
 
 # # === 工作经历 ===
 # # 从最新到最旧排列
