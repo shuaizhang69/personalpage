@@ -35,11 +35,11 @@ Use popular tools such as Plotly, Mermaid, and data frames.
 
 HuggingFace Model
 
-{{< embed platform="huggingface" resource="google/embeddinggemma-300m" type="model" >}}
+{{/* < embed platform="huggingface" resource="google/embeddinggemma-300m" type="model" > */}}
 
 HuggingFace Dataset
 
-{{< embed platform="huggingface" resource="fka/awesome-chatgpt-prompts" type="dataset" >}}
+{{/* < embed platform="huggingface" resource="fka/awesome-chatgpt-prompts" type="dataset" > */}}
 
 GitHub Repository
 
