@@ -1,116 +1,127 @@
-schema: hugoblox/author/v1
-slug: me
-is_owner: true
+# Hugo Blox 作者配置模板
+# 复制此文件到 data/authors/your-name.yaml 并根据以下说明填写
+
+# === 基础配置 ===
+schema: hugoblox/author/v1  # 固定值，不要修改
+slug: me  # URL 路径标识，如填 "zhang-san" 则个人页面为 /authors/zhang-san
+is_owner: true  # 是否为站点所有者（通常只设置一人为 true）
+
+# === 姓名信息 ===
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: Dr. Shuai Zhang  # 公开展示的姓名，会显示在页面标题等处
+  given: Shuai  # 名（Given name），用于生成引用格式如 "Zhang, S."
+  family: Zhang  # 姓（Family name）
+  alternate: '张帅'  # 可选：中文名或其他别名
+  pronunciation: 'Shuai Zhang'  # 可选：姓名发音（用于语音合成等）
+  pronouns: he  # 代词：he/him/his, she/her/hers, they/them/they
+
+# === 荣誉头衔 ===
 postnominals:
+  # 学位或荣誉后缀，如 ["PhD", "MBA", "FRSA"]
   - PhD
-  - MIEEE
+  - M.S.
+  - B.E.
+# === 状态与角色 ===
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "💻"  # 状态图标，可选：☕️ (available), 🏖️ (vacation), 🤙 (contact)
+role: PhD Student  # 职位名称，显示在 bio 开头
+
+# === 个人简介 ===
+# bio 会被用在首页、关于页面等处
+# 使用 | 表示多行字符串，支持 Markdown 格式
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  I am currently a Ph.D. candidate at the **Ai4City-Lab, Urban Governance and Design Thrust, Society Hub, The Hong Kong University of Science and Technology (Guangzhou)**, under the supervision of **Prof. Wufan Zhao** and **Prof. Yuan Liu**. Prior to this, I obtained my Master's degree from the **School of Geospatial Engineering and Science, Sun Yat-sen University**, where I was advised by **Prof. Wuming Zhang** and **Prof. Yiping Chen**.
 
+  My research focuses on **3D visual perception**, **intelligent interpretation and processing of point cloud data**, and **multi-modal urban foundation models**. I am particularly interested in bridging geometric understanding with semantic reasoning in large-scale urban environments, with an emphasis on **open-vocabulary learning**, **training-free paradigms**, and **cross-modal fusion between 2D and 3D data**.
+
+  My goal is to develop **scalable, interpretable, and generalizable AI systems** for urban analysis, enabling applications such as **digital twin construction**, **urban scene understanding**, and **intelligent infrastructure management**.
+
+
+# === 机构 affiliation ===
+# 可以填写多个机构，会显示在姓名下方
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Ai4City-Lab, Urban Governance and Design Thrust, Society Hub, The Hong Kong University of Science and Technology (Guangzhou)  # 机构名称
+    url: http://ai4dcity.com/ # 机构官网链接
 
+# === 外部链接 ===
+# 添加你的社交媒体、学术主页等链接
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+  - icon: academicons/github
+    url: https://github.com/shuaizhang69
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Shuai-Zhang-194/research
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=7uwX40wAAAAJ&hl=zh-CN
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/my-orcid?orcid=0009-0000-8608-0125 # ORCID ID
+  # - icon: academicons/Group-Ai4City Lab
+  #   url: http://ai4dcity.com/ # ORCID ID
 
+# === 研究兴趣 ===
+# 显示在个人页面的标签列表
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - 机器学习
+  - 计算机视觉
+  - 自然语言处理
+  # 根据你的研究方向填写
 
+# === 教育经历 ===
+# 从最新到最旧排列
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: 学位名称  # 如 "博士，计算机科学" 或 "PhD in Computer Science"
+    institution: 学校名称
+    start: 2015-09-01  # 开始日期，格式 YYYY-MM-DD
+    end: 2019-06-30    # 结束日期
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      可选：简述研究方向、论文主题等
+    button:  # 可选：添加按钮链接到论文/简历
+      text: 按钮文字
+      url: /path/to/document.pdf
+      icon: hero/arrow-down-tray  # 图标
 
-experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+# # === 工作经历 ===
+# # 从最新到最旧排列
+# experience:
+#   - role: 职位名称
+#     org: 公司/机构名称
+#     start: 2020-01-01
+#     end:   # 留空表示至今仍在职
+#     summary: |
+#       描述工作内容、成就、贡献等
+#     button:  # 可选
+#       text: 按钮文字
+#       url: /
+#       icon: hero/arrow-down-tray
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
+# # === 技能列表 ===
+# # 可分多个类别
+# skills:
+#   - name: 技术技能  # 类别名称
+#     items:
+#       - label: Python  # 技能名称
+#         level: 5       # 熟练度 1-5
+#       - label: 机器学习
+#         level: 5
+#       - label: 云计算
+#         level: 4
+#   - name: 研究与沟通
+#     items:
+#       - label: 学术写作
+#         level: 5
 
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+# # === 语言能力 ===
+# languages:
+#   - name: 英语
+#     level: 5  # 1-5 级
+#     label: 母语  # 显示标签，如 "母语"、"流利"、"日常会话"
+#   - name: 中文
+#     level: 5
+#     label: 母语
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+# # === 获奖情况 ===
+# awards:
+#   - title: 奖项名称
+#     awarder: 颁奖机构
+#     date: "2022-12-01"
+#     summary: 简述获奖原因
+#     icon: hero/trophy  # 图标
