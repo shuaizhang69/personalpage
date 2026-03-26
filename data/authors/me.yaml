@@ -60,10 +60,17 @@ links:
 # === 研究兴趣 ===
 # 显示在个人页面的标签列表
 interests:
-  - 3D Vison Understanding
-  - Point Cloud Understanding and Processing
-  - Multi-modal Urban Foundation Models
-  # 根据你的研究方向填写
+  - 3D Vision and Geometric Representation
+  - City-Scale 3D Scene Modeling
+  - Point Cloud Learning and Feature Encoding
+  - 3D Scene Parsing and Structural Analysis
+  - Open-Vocabulary 3D Segmentation 
+  - Open-World Semantic Inference in 3D
+  - Multimodal Urban Data Fusion
+  - Urban Foundation Models and Spatial AI
+  - Training-Free and Data-Efficient Learning Paradigms
+  - Geometry-Guided Spatial Reasoning
+  - Forestry Point Cloud Analysis and Tree Modeling
 
 # === 教育经历 ===
 # 从最新到最旧排列

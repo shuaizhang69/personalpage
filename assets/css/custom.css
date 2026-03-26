@@ -1,0 +1,18 @@
+/* Hugo Blox: make homepage/landing sections wider than default "prose" width.
+   This prevents large left/right blank areas after changing sections. */
+
+/* Landing blocks that use max-w-prose */
+#section-markdown .max-w-prose,
+#papers .max-w-prose,
+#section-collection .max-w-prose,
+#talks .max-w-prose,
+#news .max-w-prose {
+  max-width: 110rem !important; /* ~1760px, effectively "wide" */
+}
+
+/* talks/news blocks that use Tailwind arbitrary max width like max-w-[65ch] */
+#talks [class*="max-w-[65ch]"],
+#news [class*="max-w-[65ch]"] {
+  max-width: 120ch !important;
+}
+
