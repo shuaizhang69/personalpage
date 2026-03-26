@@ -43,15 +43,10 @@ sections:
       subtitle: 'Urban-Scale Multimodal Intelligence and Foundation Models'
       text: |-
         My research explores how cities can be understood through multimodal intelligence. I focus on integrating heterogeneous data—particularly 3D point clouds, imagery, and text—to build unified representations of complex urban environments.
-
         My current research interests include:
-
-        3D Urban Perception: Combining geometric cues with visual and linguistic data for scalable, city-level scene understanding.
-
-        Urban Foundation Models: Leveraging vision-language models to develop training-efficient, open-vocabulary paradigms for spatial reasoning.
-
-        Intelligent City Systems: Moving beyond isolated tasks to build unified frameworks for large-scale infrastructure analysis.
-
+        *3D Urban Perception*: Combining geometric cues with visual and linguistic data for scalable, city-level scene understanding.
+        *Urban Foundation Models*: Leveraging vision-language models to develop training-efficient, open-vocabulary paradigms for spatial reasoning.
+        *Intelligent City Systems*: Moving beyond isolated tasks to build unified frameworks for large-scale infrastructure analysis.
         Feel free to reach out for collaboration! 😃
     design:
       columns: '1'
