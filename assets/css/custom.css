@@ -6,7 +6,8 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 60rem; /* keep paragraph width visually aligned with the heading */
-  font-size: 1.125rem; /* slightly larger than the default prose size */
+  font-size: 1.35rem; /* larger */
+  line-height: 1.75;
 }
 
 /* Keep paragraph spacing clean when the text is centered. */
@@ -14,4 +15,3 @@
   margin-left: auto;
   margin-right: auto;
 }
-
