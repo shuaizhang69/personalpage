@@ -42,21 +42,7 @@ sections:
       title: '📚 My Research'
       subtitle: 'Urban-Scale Multimodal Intelligence and Foundation Models'
       text: |-
-        My research explores how cities can be understood through multimodal intelligence.
-        I focus on integrating heterogeneous data sources, including 3D point clouds, remote sensing imagery, street-level observations, and textual information, to build a unified representation of complex urban environments.
-
-        A central challenge lies in scaling perception and understanding to city-level scenarios.
-        Urban data is inherently large-scale, sparse, and heterogeneous, requiring models that can capture both fine-grained geometric structures and high-level semantic patterns across space.
-
-        Within this context, my work emphasizes the intelligent interpretation of 3D point clouds as a core modality.
-        I investigate how geometric cues can be effectively combined with visual and linguistic information to enable robust, consistent, and scalable understanding of urban scenes.
-
-        Building upon these foundations, I aim to develop urban foundation models that generalize across tasks and modalities.
-        By leveraging recent advances in large AI models, particularly vision-language models, my research explores training-efficient and training-free paradigms for open-vocabulary semantic perception and spatial reasoning.
-
-        Ultimately, this work seeks to move beyond isolated perception tasks toward a unified framework for urban intelligence, enabling applications such as large-scale scene understanding, infrastructure analysis, and intelligent city systems.
-
-        Feel free to reach out for collaboration.😃
+        I explore how cities can be understood through multimodal intelligence, integrating 3D point clouds, remote sensing, and vision-language models. My work focuses on training-efficient paradigms for city-scale open-vocabulary perception and spatial reasoning, moving toward unified urban foundation models for scene understanding and infrastructure analysis.😃
     design:
       columns: '1'
   - block: collection
