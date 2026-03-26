@@ -16,3 +16,30 @@
   max-width: 100ch !important;
 }
 
+/* Resume biography: center Education / Interests blocks (theme defaults left-align). */
+#section-resume-biography-3 .md\:col-span-8 > div.mb-16:has(> div.grid) > div.flex.items-center.gap-4.mb-8 {
+  justify-content: center;
+}
+
+/* 2 列布局下第三张教育卡片单独占一行时居中，避免“挤在左边” */
+@media (min-width: 768px) and (max-width: 1279px) {
+  #section-resume-biography-3 .md\:col-span-8 .grid.md\:grid-cols-2.xl\:grid-cols-3 > :nth-child(3):nth-last-child(1) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: min(100%, calc(50% - 0.75rem));
+    max-width: 36rem;
+  }
+}
+
+/* Interests：标签云居中 */
+#section-resume-biography-3 .md\:col-span-8 .flex.flex-wrap.gap-3 {
+  justify-content: center;
+}
+
+#section-resume-biography-3
+  .md\:col-span-8
+  > div
+  > div.flex.items-center.gap-4.mb-8:has(+ div.flex.flex-wrap.gap-3) {
+  justify-content: center;
+}
+
