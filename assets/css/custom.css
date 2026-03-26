@@ -1,0 +1,5 @@
+/* 控制 My Research 每行能显示的字符数量 */
+#section-markdown .max-w-prose,
+#section-markdown .prose {
+  max-width: 80ch !important; /* 想“每行更多”，把数字调大；反之调小 */
+}
