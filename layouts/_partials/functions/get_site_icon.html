@@ -1,0 +1,5 @@
+{{/*
+  覆盖主题：不输出站点 favicon / apple-touch-icon。
+  若需恢复：删除本文件，并在 assets/media/ 放置 icon.svg（推荐）或 icon.png。
+*/}}
+{{ return (dict "resource" nil "type" "" "is_svg" false) }}
