@@ -2,7 +2,7 @@
 title: "Chat3D: Interactive understanding 3D scene-level point clouds by chatting with foundation model for urban ecological construction"
 authors:
   - Yiping Chen
-  - Shuai Zhang
+  - me
   - Ting Han
   - Yumeng Du
   - Wuming Zhang
