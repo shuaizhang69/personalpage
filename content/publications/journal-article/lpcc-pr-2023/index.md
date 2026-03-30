@@ -59,9 +59,6 @@ projects: []
 slides: ""
 ---
 
-&gt; [!NOTE]
-&gt; Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-
 ## Highlights
 
 - **Novel 3D Transformer Architecture**: First to integrate T-Net, kNN grouping, and 3D transformer modules for point cloud classification, addressing the limitation of independent point feature learning in traditional methods.
