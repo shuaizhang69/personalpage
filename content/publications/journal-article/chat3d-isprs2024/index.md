@@ -37,17 +37,17 @@ featured: true
 links:
   - type: pdf
     url: https://doi.org/10.1016/j.isprsjprs.2024.04.024
-  - type: code
-    url: ""
-  - type: dataset
-    name: "SYSU9 Dataset (Sun Yat-sen University)"
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: ""
-  - type: video
-    url: ""
+#   - type: code
+#     url: ""
+#   - type: dataset
+#     name: "SYSU9 Dataset (Sun Yat-sen University)"
+#     url: ""
+#   - type: project
+#     url: ""
+#   - type: slides
+#     url: ""
+#   - type: video
+#     url: ""
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -62,9 +62,6 @@ projects: []
 # Slides (optional).
 slides: ""
 ---
-
-&gt; [!NOTE]
-&gt; Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 ## Highlights
 
