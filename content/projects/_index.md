@@ -1,6 +1,7 @@
 ---
 title: 'Projects'
 date: 2024-05-19
+draft: true
 type: landing
 
 design:
