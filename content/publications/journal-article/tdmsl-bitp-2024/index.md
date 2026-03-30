@@ -39,7 +39,7 @@ tags:
   - Skylight detection
   - Planetary geology
 
-featured: true
+featured: false
 
 links:
   - type: pdf

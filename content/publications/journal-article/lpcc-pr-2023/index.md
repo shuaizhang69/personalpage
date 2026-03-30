@@ -37,7 +37,7 @@ tags:
   - ModelNet40
   - Computer vision
 
-featured: true
+featured: false
 
 links:
   - type: pdf
