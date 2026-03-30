@@ -6,8 +6,8 @@ date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
-  spacing: '6rem'
+  # Default section spacing - 增加区块间距让页面更舒展
+  spacing: '8rem'
 
 sections:
   - block: resume-biography-3

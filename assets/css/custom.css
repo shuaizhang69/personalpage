@@ -1,5 +1,63 @@
 /* 控制 My Research 每行能显示的字符数量 */
 #section-markdown .max-w-prose,
 #section-markdown .prose {
-  max-width: 80ch !important; /* 想“每行更多”，把数字调大；反之调小 */
+  max-width: 80ch !important; /* 想"每行更多"，把数字调大；反之调小 */
+}
+
+/* ============================================
+   美化区块标题样式 (Featured Publications, Recent Publications, Experience)
+   ============================================ */
+
+/* 区块标题整体容器 - 增加上下间距 */
+section .flex-col > .text-3xl,
+section h2,
+section .section-title {
+  margin-bottom: 2.5rem !important;
+  margin-top: 1rem !important;
+}
+
+/* 主标题样式 - 增大字体、加粗、添加装饰 */
+section h2,
+.block-collection h2,
+.block-resume h2,
+.block-markdown h2 {
+  font-size: 2.25rem !important; /* 36px，比原来的大 */
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  position: relative !important;
+  padding-bottom: 1rem !important;
+}
+
+/* 添加渐变下划线装饰 */
+section h2::after,
+.block-collection h2::after,
+.block-resume h2::after,
+.block-markdown h2::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 80px !important;
+  height: 4px !important;
+  background: linear-gradient(90deg, var(--color-primary-500), var(--color-primary-300)) !important;
+  border-radius: 2px !important;
+}
+
+/* 副标题样式 */
+section h2 + p,
+section h2 + .text-lg {
+  margin-top: 1.25rem !important;
+  font-size: 1.125rem !important;
+  color: var(--color-gray-600) !important;
+}
+
+/* 增加区块之间的间距 */
+section {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+/* 第一个区块（Biography）的上边距小一些 */
+section:first-of-type {
+  padding-top: 2rem !important;
 }
