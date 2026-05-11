@@ -67,3 +67,5 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+.aionrs/  
+pdf_extract_output.txt  
