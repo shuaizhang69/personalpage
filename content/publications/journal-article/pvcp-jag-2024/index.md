@@ -1,7 +1,11 @@
 ---
 title: "Point and voxel cross perception with lightweight cosformer for large-scale point cloud semantic segmentation"
 authors:
-  - me
+  - Shuai Zhang
+  - Biao Wang
+  - Yiping Chen
+  - Shuhang Zhang
+  - Wuming Zhang
 author_notes:
   - "First author"
   - ""

@@ -1,7 +1,7 @@
 ---
 title: "SPTNet: Sparse Convolution and Transformer Network for Woody and Foliage Components Separation From Point Clouds"
 authors:
-  - me
+  - Shuai Zhang
   - Yiping Chen
   - Biao Wang
   - Dong Pan

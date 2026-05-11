@@ -1,7 +1,7 @@
 ---
 title: "SPDC: A Super-Point and Point Combining Based Dual-Scale Contrastive Learning Network for Point Cloud Semantic Segmentation"
 authors:
-  - me
+  - Shuai Zhang
   - Weihong Huang
   - Yiping Chen
   - Shuhang Zhang

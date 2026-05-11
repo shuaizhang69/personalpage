@@ -2,7 +2,7 @@
 title: "Learning point cloud context information based on 3D transformer for more accurate and efficient classification"
 authors:
   - Yiping Chen
-  - me
+  - Shuai Zhang
   - Weisheng Lin
   - Shuhang Zhang
   - Wuming Zhang

@@ -4,7 +4,7 @@ authors:
   - Dong Pan
   - Jie Shao
   - Shuhang Zhang
-  - me
+  - Shuai Zhang
   - Bingtao Chang
   - Hao Xiong
   - Wuming Zhang

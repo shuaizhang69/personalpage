@@ -1,16 +1,13 @@
 ---
 title: "3D Detection and Morphological Analysis of Extraterrestrial Lava Tubes: A Case Study in Haikou, China"
 authors:
-  - me
-  - Yiping Chen
-  - Wuming Zhang
-  - Shuhang Zhang
-  - Dong Pan
-  - Other co-authors
+  - DU Yumeng
+  - CHEN Yiping
+  - ZHANG Shuai
+  - ZHANG Wuming
 author_notes:
-  - "First author"
   - ""
-  - "Corresponding author"
+  - ""
   - ""
   - ""
 date: "2024-01-01T00:00:00Z"
