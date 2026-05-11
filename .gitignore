@@ -69,3 +69,5 @@ Desktop.ini
 npm-debug.log*
 .aionrs/  
 pdf_extract_output.txt  
+
+*.bat
