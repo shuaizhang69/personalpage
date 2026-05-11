@@ -36,7 +36,7 @@ tags:
 featured: true
 
 links:
-  - type: pdf
+  - type: doi
     url: https://doi.org/10.1109/TGRS.2026.4404814
 #   - type: code
 #     url: ""
