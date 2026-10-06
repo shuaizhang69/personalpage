@@ -37,7 +37,7 @@ tags:
   - 3D scene understanding
   - Smart city
 
-featured: true
+featured: false
 
 links:
   - type: pdf

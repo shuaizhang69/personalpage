@@ -58,6 +58,8 @@ sections:
     id: papers
     content:
       title: Featured Publications
+      count: 4
+      order: desc
       filters:
         folders:
           - publications
@@ -66,9 +68,16 @@ sections:
       view: article-grid
       columns: 2
   - block: collection
+    id: recent-publications
     content:
       title: Recent Publications
       text: ''
+      count: 0
+      order: desc
+      archive:
+        enable: true
+        text: All publications
+        link: /publications/
       filters:
         folders:
           - publications

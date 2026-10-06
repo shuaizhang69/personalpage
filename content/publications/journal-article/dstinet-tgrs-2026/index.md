@@ -33,7 +33,7 @@ tags:
   - Deep learning
   - Urban monitoring
 
-featured: true
+featured: false
 
 links:
   - type: doi

@@ -1,33 +1,32 @@
 ---
-title: "Beyond a Single Light: A Large-Scale Aerial Dataset for Urban Scene Reconstruction Under Varying Illumination"
+title: "SkyLume: A Large-Scale Multi-Illumination Aerial Benchmark for Urban Scene Reconstruction and Beyond"
 authors:
   - Zhuoxiao Li
   - Wenzong Ma
   - Taoyu Wu
   - Jinjing Zhu
-  - Zhenchao Qi
   - Shuai Zhang
   - Jing Ou
+  - Tongyan Hua
   - Yinrui Ren
-  - Weiqing Qi
-  - Guobin Shen
+  - Rongjun Qin
   - Hui Xiong
   - Wufan Zhao
 author_notes:
-date: "2025-12-16T00:00:00Z"
+date: "2026-09-12T00:00:00Z"
 publishDate: "2025-12-16T00:00:00Z"
 
 # Publication type.
-publication_types: ["preprint"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv preprint arXiv:2512.14200*"
-publication_short: "arXiv:2512.14200"
+publication: "*European Conference on Computer Vision (ECCV 2026)*, pp. 393–410"
+publication_short: "ECCV 2026"
 
 abstract: Recent advances in Neural Radiance Fields and 3D Gaussian Splatting have demonstrated strong potential for large-scale UAV-based 3D reconstruction tasks by fitting the appearance of images. However, real-world large-scale captures are often based on multi-temporal data capture, where illumination inconsistencies across different times of day can significantly lead to color artifacts, geometric inaccuracies, and inconsistent appearance. Due to the lack of UAV datasets that systematically capture the same areas under varying illumination conditions, this challenge remains largely underexplored. To fill this gap, we introduce SkyLume, a large-scale, real-world UAV dataset specifically designed for studying illumination robust 3D reconstruction in urban scene modeling. (1) We collect data from 10 urban regions comprising more than 100k high resolution UAV images (four oblique views and nadir), where each region is captured at three periods of the day to systematically isolate illumination changes. (2) To support precise evaluation of geometry and appearance, we provide per-scene LiDAR scans and accurate 3D ground-truth for assessing depth, surface normals, and reconstruction quality under varying illumination. (3) For the inverse rendering task, we introduce the Temporal Consistency Coefficient (TCC), a metric that measures cross-time albedo stability and directly evaluates the robustness of the disentanglement of light and material. We aim for this resource to serve as a foundation that advances research and real-world evaluation in large-scale inverse rendering, geometry reconstruction, and novel view synthesis.
 
 # Summary. An optional shortened abstract.
-summary: We introduce SkyLume, the first large-scale real-world UAV dataset with systematic illumination variation coverage (morning/noon/evening) across 10 urban regions with 100K+ images, paired with LiDAR ground truth. We propose the Temporal Consistency Coefficient (TCC) metric for evaluating illumination-robust inverse rendering.
+summary: "ECCV 2026 · Co-author. SkyLume benchmarks urban 3D reconstruction across changing illumination, pairing multi-temporal aerial imagery with LiDAR ground truth."
 
 tags:
   - 3D reconstruction
@@ -39,7 +38,7 @@ tags:
   - Urban scene
   - Dataset
 
-featured: false
+featured: true
 
 hugoblox:
   ids:
@@ -48,6 +47,10 @@ hugoblox:
 links:
   - type: pdf
     url: https://arxiv.org/pdf/2512.14200
+  - type: doi
+    url: https://doi.org/10.1007/978-3-032-37016-7_21
+  - type: project
+    url: https://zhuoxiaoli.github.io/skylume_page/
   # - type: code
   #   url: ""
   # - type: dataset

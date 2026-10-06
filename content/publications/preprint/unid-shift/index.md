@@ -1,28 +1,29 @@
 ---
-title: "UniD-Shift: Towards Unified Semantic Segmentation via Interpretable Share-Private Multimodal Decomposition"
+title: "UniD-Shift: Towards Unified Semantic Segmentation via Interpretable Shared–Private Multimodal Decomposition"
 authors:
   - Shuai Zhang
   - Zhecheng Shi
-  - Zhuxiao Li
+  - Zhuoxiao Li
   - Jing Ou
   - Tengxi Wang
   - Yuan Liu
   - Wufan Zhao
 author_notes:
+  - "First author"
 date: "2026-05-08T00:00:00Z"
 publishDate: "2026-05-08T00:00:00Z"
 
 # Publication type.
-publication_types: ["preprint"]
+publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv preprint arXiv:2605.07356*"
-publication_short: "arXiv:2605.07356"
+publication: "*CVPR 2026 Findings*"
+publication_short: "CVPR 2026 Findings"
 
 abstract: Semantic segmentation of large-scale 3D point clouds is crucial for applications such as autonomous driving and urban digital twins. However, the sparse sampling pattern of LiDAR and the view-dependent geometric distortion in image observations complicate cross-modal alignment and hinder stable fusion. Inspired by the fact that 2D images captured by cameras are representations of the 3D world, we recognize that the features learned from 2D and 3D segmentation share some common semantics, while other aspects remain modality-specific. This insight motivates a unified multimodal framework for joint 2D-3D semantic segmentation. We combine a SAM-based vision encoder with a SPTNet-based geometric encoder to extract complementary semantic and geometric representations. The resulting features from both modalities are explicitly decomposed into shared and private subspaces, where the shared components summarize semantic factors common to both domains, and the private components preserve properties that are unique to each modality. A lightweight attention-based fusion module aggregates the shared features into a consistent cross-modal representation, and a regularized training objective ensures both semantic alignment and subspace independence. Experiments on the SemanticKITTI and nuScenes benchmarks demonstrate consistent improvements in segmentation accuracy over representative multimodal baselines, accompanied by competitive computational efficiency. Cross-domain evaluation on nuScenes USA-Singapore shows stable performance under distribution shifts, demonstrating strong generalization.
 
 # Summary. An optional shortened abstract.
-summary: We propose UniD-Shift, a unified 2D-3D semantic segmentation framework with shared-private feature decomposition that disentangles modality-invariant and modality-specific representations. Using SAM + SPTNet encoders and attention-based fusion, it achieves SOTA results on nuScenes and SemanticKITTI with strong cross-domain generalization.
+summary: "CVPR 2026 Findings · First author. UniD-Shift separates shared and modality-specific features for interpretable 2D–3D semantic segmentation and cross-domain generalization."
 
 tags:
   - 3D semantic segmentation
@@ -95,10 +96,11 @@ The framework achieves competitive computational efficiency with **240ms** infer
 ## Citation
 
 ```bibtex
-@misc{zhang2026unidshift,
-      title={UniD-Shift: Towards Unified Semantic Segmentation via Interpretable Share-Private Multimodal Decomposition}, 
-      author={Shuai Zhang and Zhecheng Shi and Zhuxiao Li and Jing Ou and Tengxi Wang and Yuan Liu and Wufan Zhao},
+@inproceedings{zhang2026unidshift,
+      title={UniD-Shift: Towards Unified Semantic Segmentation via Interpretable Shared–Private Multimodal Decomposition},
+      author={Shuai Zhang and Zhecheng Shi and Zhuoxiao Li and Jing Ou and Tengxi Wang and Yuan Liu and Wufan Zhao},
       year={2026},
+      booktitle={CVPR 2026 Findings},
       eprint={2605.07356},
       archivePrefix={arXiv},
       primaryClass={cs.CV},

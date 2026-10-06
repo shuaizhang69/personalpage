@@ -61,3 +61,12 @@ section {
 section:first-of-type {
   padding-top: 2rem !important;
 }
+
+/* Keep the existing publication layouts, with less space between the two lists. */
+#papers {
+  padding-bottom: 2rem !important;
+}
+
+#recent-publications {
+  padding-top: 2rem !important;
+}
